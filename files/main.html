@@ -101,7 +101,7 @@
 					<br><br><br><br>
 					<br><br>
 					<div>
-						<button type="button" class="btn btn-primary btn-lg"data-toggle="modal" data-target="#addTextModal">Add Text</button>
+						<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#addTextModal">Add Text</button>
 					</div>
 					<br>
 					<div>
@@ -113,7 +113,6 @@
 				</div>
 			<div id="drawing_area" class="col-md-10">
 				<canvas id="myCanvas" height="510" width="1100">
-				<hr>
 			</div>
 			
 		</div>
@@ -125,7 +124,7 @@
 				<button type="button" class="btn btn-danger btn-lg" onclick="clearAll()">Clear</button>
 			</div>
 			<div class="col-md-2 col-md-offset-1">
-				<button type="button" class="btn btn-success btn-lg" onclick="downloadImage()">Download PNG</button>
+				<button type="button" id="downloadImage" class="btn btn-success btn-lg" onclick="downloadImage()">Download PNG</button>
 			</div>
 			<div class="col-md-2 col-md-offset-1">
 				<button type="button" class="btn btn-success btn-lg" onClick="saveImage()">Save</button>
